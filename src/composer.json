@@ -1,5 +1,5 @@
 {
-    
+
     "version": "1.0.0",
     "description": "This page has details of all the resources related to equity that are a part of the REST API project. You can find request and response of all our APIs. You can try to generate a sample response by using the 'Try now' option as well. All APIs under the REST project have to be called by passing certain Authentication credentials as part of the request header. AppId and AppIdKey are the Authentication credentials that we expect for non logged in APIs whereas the logged in section will continue to accept JSESSIONID as a part of the cookie. We are working on it. Watch this space for any updates on the same.",
     "keywords": [
@@ -10,28 +10,31 @@
     ],
     "homepage": "https://www.edelweiss.in",
     "license": "unlicense",
-    "authors": [
-        {
-            "name": "Edelweiss",
-            "homepage": "https://www.edelweiss.in"
-        }
-    ],
+    "authors": [{
+        "name": "Edelweiss",
+        "homepage": "https://www.edelweiss.in"
+    }],
     "require": {
         "php": ">=7.2",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^6.2",
-		"apache/log4php":"2.3.0"
+        "apache/log4php": "2.3.0",
+        "rakit/validation": "^1.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0 || ^9.0",
         "friendsofphp/php-cs-fixer": "^2.12"
     },
     "autoload": {
-        "psr-4": { "com\edel\\" : "lib/" }
+        "psr-4": {
+            "com\\edel\\": "lib/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "com\edel\\Test\\" : "test/" }
+        "psr-4": {
+            "com\\edel\\Test\\": "test/"
+        }
     }
 }
