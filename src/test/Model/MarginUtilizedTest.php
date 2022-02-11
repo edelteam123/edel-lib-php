@@ -1,0 +1,194 @@
+<?php
+/**
+ * MarginUtilizedTest
+ *
+ * PHP version 7.2
+ *
+ * @category Class
+ * @package  com\edel
+ * @author   Edelweiss
+ * @link     https://www.edelweiss.in
+ */
+
+/**
+ * Swagger spec for our Equity REST Project - Uat Version
+ *
+ * This page has details of all the resources related to equity that are a part of the REST API project. You can find request and response of all our APIs. You can try to generate a sample response by using the 'Try now' option as well. All APIs under the REST project have to be called by passing certain Authentication credentials as part of the request header. AppId and AppIdKey are the Authentication credentials that we expect for non logged in APIs whereas the logged in section will continue to accept JSESSIONID as a part of the cookie. We are working on it. Watch this space for any updates on the same.
+ *
+ * The version of the document: v1
+ */
+
+/**
+ * Please update the test case below to test the model.
+ */
+
+namespace com\edel\Test\Model;
+
+use PHPUnit\Framework\TestCase;
+
+/**
+ * MarginUtilizedTest Class Doc Comment
+ *
+ * @category    Class
+ * @description Margin Utilized
+ * @package     com\edel
+ * @author   Edelweiss
+ * @link     https://www.edelweiss.in
+ */
+class MarginUtilizedTest extends TestCase
+{
+
+    /**
+     * Setup before running any test case
+     */
+    public static function setUpBeforeClass(): void
+    {
+    }
+
+    /**
+     * Setup before running each test case
+     */
+    public function setUp(): void
+    {
+    }
+
+    /**
+     * Clean up after running each test case
+     */
+    public function tearDown(): void
+    {
+    }
+
+    /**
+     * Clean up after running all test cases
+     */
+    public static function tearDownAfterClass(): void
+    {
+    }
+
+    /**
+     * Test "MarginUtilized"
+     */
+    public function testMarginUtilized()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "mrgUtd"
+     */
+    public function testPropertyMrgUtd()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "blkRelDlvry"
+     */
+    public function testPropertyBlkRelDlvry()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "lvPrdMrg"
+     */
+    public function testPropertyLvPrdMrg()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "fnoSpnMrg"
+     */
+    public function testPropertyFnoSpnMrg()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "fnoExpMrg"
+     */
+    public function testPropertyFnoExpMrg()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "spnExpMrg"
+     */
+    public function testPropertySpnExpMrg()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "prmPdRcd"
+     */
+    public function testPropertyPrmPdRcd()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "rlPnl"
+     */
+    public function testPropertyRlPnl()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "unRlMtm"
+     */
+    public function testPropertyUnRlMtm()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "mf"
+     */
+    public function testPropertyMf()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "ipoAmt"
+     */
+    public function testPropertyIpoAmt()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "fndWthdrwn"
+     */
+    public function testPropertyFndWthdrwn()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+
+    /**
+     * Test attribute "ttpv"
+     */
+    public function testPropertyTtpv()
+    {
+        // TODO: implement
+        $this->markTestIncomplete('Not implemented');
+    }
+}
